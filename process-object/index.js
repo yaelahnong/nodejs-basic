@@ -12,3 +12,5 @@ const currentMemoryUsage = process.memoryUsage().heapUsed;
 console.log(`Hai ${firstName} ${lastName}!`);
 console.log(`Mode environment: ${environment}`);
 console.log(`Penggunaan memori dari ${initialMemoryUsage} naik ke ${currentMemoryUsage}`);
+
+// export NODE_ENV=development && node ./process-object/index.js <firstName> <lastName>
